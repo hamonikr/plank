@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Plank
+Name[ko]=plank Dock 설정
+GenericName=Dock
+GenericName[ko]=Plank 설정 도구
+Comment[ko]=데스크탑 독 plank 환경 설정.
+Comment=Stupidly simple.
+Categories=Utility;
+Type=Application
+Exec=plank --preferences
+Icon=plank-setting
+Terminal=false
+NoDisplay=false
+Keywords=dock;plank;독;플랭크;
