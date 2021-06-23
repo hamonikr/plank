@@ -11,12 +11,12 @@
 
 # Install
 
-## HamoniKR (>= 3.0)
+## HamoniKR (>= 4.0)
 ```
 sudo apt update
 sudo apt install -y plank
 ```
-## Ubuntu (>= 18.04), LinuxMint (>= 19)
+## Ubuntu (>= 20.04), LinuxMint (>= 19.1)
 ```
 wget -qO- https://pkg.hamonikr.org/add-hamonikr.apt | sudo -E bash -
 sudo apt plank
