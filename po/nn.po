@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plank\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/plank\n"
-"POT-Creation-Date: 2021-06-23 11:52+0900\n"
+"POT-Creation-Date: 2023-07-07 14:46+0900\n"
 "PO-Revision-Date: 2016-10-28 19:42+0000\n"
 "Last-Translator: Sigvart Brendberg <sigvabrend@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <nn@li.org>\n"
@@ -49,10 +49,6 @@ msgstr ""
 
 #: data/plank.desktop.in:4
 msgid "Dock"
-msgstr ""
-
-#: data/plank.desktop.in:9
-msgid "plank"
 msgstr ""
 
 #: data/ui/preferences.ui:82

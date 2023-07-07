@@ -1,3 +1,11 @@
+plank (0.11.89-2) stable; urgency=medium
+
+  * Build for HamoniKR kumkang
+  * Fixed compile error with vala doc
+   - Removed png file in Makefile.am
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 07 Jul 2023 14:49:02 +0900
+
 plank (0.11.89-1-hamonikr1) jin; urgency=medium
 
   * Apply latest upstream for HamoniKR.

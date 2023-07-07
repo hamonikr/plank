@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plank\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/plank\n"
-"POT-Creation-Date: 2021-06-23 11:52+0900\n"
+"POT-Creation-Date: 2023-07-07 14:46+0900\n"
 "PO-Revision-Date: 2017-04-15 17:34+0000\n"
 "Last-Translator: samson <Unknown>\n"
 "Language-Team: Amharic <am@li.org>\n"
@@ -49,10 +49,6 @@ msgstr ""
 #, fuzzy
 msgid "Dock"
 msgstr "ማሳራፊያ መደበቂያ"
-
-#: data/plank.desktop.in:9
-msgid "plank"
-msgstr ""
 
 #: data/ui/preferences.ui:82
 msgid "Theme:"
