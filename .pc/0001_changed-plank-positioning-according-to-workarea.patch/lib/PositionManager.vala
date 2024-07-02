@@ -65,14 +65,8 @@ namespace Plank
 			screen.composited_changed.connect (screen_composited_changed);
 			
 			// NOTE don't call update_monitor_geo to avoid a double-call of dockwindow.set_size on startup
-			var session=Environment.get_variable("XDG_CURRENT_DESKTOP");
-			if (session != null && session.contains("GNOME")) {
-				screen.get_monitor_geometry (find_monitor_number (screen, controller.prefs.Monitor), out monitor_geo);
-			}
-			else {
-				monitor_geo = screen.get_monitor_workarea (find_monitor_number (screen, controller.prefs.Monitor));
-			};
-
+			screen.get_monitor_geometry (find_monitor_number (screen, controller.prefs.Monitor), out monitor_geo);
+			
 			screen_is_composited = screen.is_composited ();
 		}
 		
@@ -139,15 +133,9 @@ namespace Plank
 		void screen_changed (Gdk.Screen screen)
 		{
 			var old_monitor_geo = monitor_geo;
-
-			var session=Environment.get_variable("XDG_CURRENT_DESKTOP");
-			if (session != null && session.contains("GNOME")) {
-				screen.get_monitor_geometry (find_monitor_number (screen, controller.prefs.Monitor), out monitor_geo);
-			}
-			else {
-				monitor_geo = screen.get_monitor_workarea (find_monitor_number (screen, controller.prefs.Monitor));
-			};
-
+			
+			screen.get_monitor_geometry (find_monitor_number (screen, controller.prefs.Monitor), out monitor_geo);
+			
 			// No need to do anything if nothing has actually changed
 			if (old_monitor_geo.x == monitor_geo.x
 				&& old_monitor_geo.y == monitor_geo.y
