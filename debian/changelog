@@ -1,3 +1,16 @@
+plank (0.11.89-9hamonikr2) stable; urgency=medium
+
+  * Release for ubuntu 24.04
+   - No change
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 03 Jul 2024 00:04:25 +0900
+
+plank (0.11.89-9hamonikr1) stable; urgency=medium
+
+  * Build for Ubuntu 22.04 jammy 
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 25 Aug 2023 13:55:35 +0900
+
 plank (0.11.89-9hamonikr1) stable; urgency=medium
 
   * Build for Ubuntu 22.04 jammy 
