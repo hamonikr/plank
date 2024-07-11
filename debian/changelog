@@ -1,3 +1,10 @@
+plank (0.11.89-9hamonikr3) stable; urgency=medium
+
+  * Release for rasberry pi 5
+   - No change
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 12 Jul 2024 01:46:53 +0900
+
 plank (0.11.89-9hamonikr2) stable; urgency=medium
 
   * Release for ubuntu 24.04
